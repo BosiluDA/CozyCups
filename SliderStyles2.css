@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box;}
+body{font-family: "consolas";}
+
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  align-content: first baseline;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name:fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  
+}
+
+.slideshow-container img {
+  display:flex;
+  border-radius: 20px;
+
+  width: 500px;
+  height: 300px;
+
+}
+
+.slideshowbox1{
+    display:inline-flex;
+    margin-top: 0;
+    padding-top: 0;
+    width: fit-content;
+    justify-items: baseline;
+}
+
+
+.homeslide{
+  display:flex;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+.mySlides {display: none;justify-content: center;}
+img {vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  justify-items: center;  
+  align-items: center;      
+  flex-direction: column;   
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;    
+  align-content: center;       
+}
+
+/* Caption text */
+.text {
+  color: #101010;
+  font-size: 15px;
+  padding: 8px 12px;
+  display: flex;
+  bottom: 8px;
+ 
+  
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.mySlides.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px;
+  color: white;}
+}
+
+
+
+
+
+

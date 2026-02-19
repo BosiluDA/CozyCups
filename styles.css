@@ -1,0 +1,608 @@
+.Shop1{
+    padding-left: 150px;
+}
+
+.about{
+    text-align: center;
+    font-size: 20px;
+}
+
+.home{
+    font-family: "consolas";
+    
+    text-align: center;
+    align-content: center;
+
+    background-color: rgba(255, 255, 255, 0.677);
+
+    
+}
+
+body{
+    
+    padding-top: 115px;
+    font-family: "Consolas";
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+
+
+p{  
+    margin: none;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(156, 58, 28);
+}
+
+form{
+    display:inline-block;
+    
+    
+    
+}
+/* ---------------------------------------footer--------------------------  */
+footer{
+    color: rgb(49, 10, 11);
+    text-align: center;
+    padding: 20px;
+}
+
+h1,h2,h3{
+    font-size: 30px;
+    color:rgb(185 106 89);
+    text-align: center;
+
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    color: black;
+    font-size: 50px;
+}
+/*nav{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+}
+*/
+img{
+    height: 200px;
+    max-width: 100%;
+}
+
+.footerimgs img{
+    height: 50px;
+    max-width: 70px;
+    margin: 0 10px;
+   
+}
+
+.footerimgs{
+
+    align-items: flex-end;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.footbar{
+    text-decoration: none;
+}
+
+/* -----------------------------------navbar------------------------------------  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: rgb(156, 58, 28);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 0 20px;
+ 
+}
+
+
+div.logo{
+    color: goldenrod;
+    font-size: 2rem;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
+    float: center;
+    margin-right: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(233, 182, 102);
+    font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    background: gold;
+    color: rgb(156, 58, 28);
+    transition: 0.5s;
+}
+
+.cta-button{
+    background: gold;
+    color: rgb(156, 58, 28);
+    transition: 0.5s;
+}
+
+.searchbar{
+    flex: 1;
+    height: 33px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    
+}
+
+.navbar {
+    width: 200px;
+    background-color: chocolate;
+    color: gold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position:fixed;
+
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.navbarcolor{
+    color: gold;
+    
+    text-decoration: none;
+}
+
+/*------------------------------------------service page-------------------------------------------------------             */
+.serviceinfo{
+    
+    text-align: end;
+}
+
+.bulkorder{
+    margin-right: 50px ;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+.bulkordertxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+   display: flex;
+ 
+}
+
+.abt-service{
+    padding-top: 80px;
+    padding-right: 0;
+    font-size: 15px;
+}
+
+.abt-service1{
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+
+.Wrappingtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.abt-service{
+    
+    padding-right: 50px;
+}
+
+.Wrapping{
+    
+    width: 40%;
+    height: 40%;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.Shippingtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.Shipping{
+    margin-right: 50px ;
+    width: 45%;
+    height: 50%;
+    border-radius: 30px;
+
+}
+
+.Exchangetxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.Exchanges{
+    width: 200%;
+    height: 200%;
+    
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.mugcaretxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-flex;
+
+   
+}
+
+.mugcare{
+    margin-right: 50px ;
+    width: 45%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+.customersupporttxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.customersupport{
+    width: 200%;
+    height: 200%;
+    
+    border-radius: 30px;
+    margin-left: 50px;
+}
+/*---------------------------------------------Searchbutton---------------------------------------------------*/
+.searchbttnicon{
+    
+    height: 20px;
+    width: 20px;
+    
+}
+
+.searchbttn{
+    background-color: rgb(156, 58, 28);
+    border: rgb(156, 58, 28);
+    border-radius: 5px;
+}
+
+.searchbttn:hover{
+    background-color: gold;
+    color: rgb(156, 58, 28);
+    transition: 0.5s;
+}
+/*---------------------------------------------cartbutton---------------------------------------------*/
+.cartbttn{
+    background-color: rgb(156, 58, 28);
+    border:rgb(156, 58, 28) ;
+    border-radius: 8px;
+}
+
+.cartbttn:hover{
+    background-color: gold;
+    color:rgb(156, 58, 28) ;
+    transition: .5s;
+}
+
+.likebttn:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.likebttn{
+    padding-top: 5px;
+    border:none;
+    border-radius: 20px;
+}
+
+.likebttnicon{
+    height: 20px;
+    width: 20px;
+}
+
+.liked {
+    background-color: red;
+}
+
+.footbar{
+    color: black;
+}
+
+h5{
+    font-weight: 5px
+}
+
+/* -----------------------------------SHOP PAGE****************************************  */
+.Shop{
+
+        display: flex;
+
+}
+
+.homepage{
+    margin-top: 2vh;
+   padding-bottom: 700px;
+    min-height: 16vh;
+    max-height: 16vh;
+    background-image: url(images/whitebackg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.homepagetxt{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    
+    text-align: start;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+
+.homepage2{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+   padding-bottom: 700px;
+    min-height: 16vh;
+    max-height: 16vh;
+    background-image: url(images/whitebackg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.homepagebtn{
+    height: 70px;
+    margin-top: 70px;
+    width: 25rem;
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+}
+
+.homepagebtna{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: aliceblue;
+
+}
+
+.homepagediv{
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+.homepagetxt2{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 5rem;
+    text-align: start;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+/* ------------------------------Section Styles---------------------------------- */
+.wrapper{
+    background-color: burlywood;
+    border: 1px solid #ddd;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    
+
+}
+
+#contact {
+    padding: 30px;
+    text-align: center;
+    background-color: transparent ;
+    justify-content:center ;
+
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+form input[type="password"], form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(156, 58, 28);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: gold;
+    transition: 0.5s;
+}
+
+/* ---------------------------------Other custom sections ------------------------------------*/
+.bulkorder, .Shipping, .Wrapping, .Exchanges, .mugcare, .customersupport {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.Wrappingtxt, .Shippingtxt, .Exchangetxt, .mugcaretxt, .customersupporttxt {
+    font-size: 1rem;
+}
+
+/*--------------------------------------------- Make text more readable on small screens--------------------------------------- */
+p {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .homepage, .homepage2 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+
+    .homepagebtn {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .homepagetxt, .homepagetxt2 {
+        font-size: 1.5rem;
+    }
+
+    .footerimgs {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homepage, .homepage2 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+
+    .homepagetxt {
+        font-size: 1.8rem;
+    }
+
+    .homepagetxt2 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .user-button {
+        margin-left: 10px;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+
+    .footerimgs img {
+        max-width: 40px;
+    }
+}
+/*------------------------------------------------cart-------------------------------------*/
+.cart{
+    display: inline-flex;
+}
+
+.removebttn{
+    border:none;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.removebttn:hover{
+    background-color: gold;
+    transition: 0.5s;
+}

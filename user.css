@@ -1,0 +1,26 @@
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.user-button{
+    border-radius: 80px;
+    padding: 5px;
+    border-style: solid;
+    
+}
+
+.user-button:active{
+    color: rgb(254, 253, 253);
+    background-color: black;
+
+}
+
+.background{
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed;
+}
+

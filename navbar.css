@@ -1,0 +1,92 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: rgb(156, 58, 28);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 0 20px;
+ 
+}
+
+
+div.logo{
+    color: goldenrod;
+    font-size: 2rem;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul{
+    float: center;
+    margin-right: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(233, 182, 102);
+    font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    background: gold;
+    color: rgb(156, 58, 28);
+    transition: 0.5s;
+}
+
+.cta-button{
+    background: gold;
+    color: rgb(156, 58, 28);
+    transition: 0.5s;
+}
+
+.searchbar{
+    flex: 1;
+    height: 33px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    
+}
+
+.navbar {
+    width: 200px;
+    background-color: chocolate;
+    color: gold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position:fixed;
+
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.navbarcolor{
+    color: gold;
+    
+    text-decoration: none;
+}

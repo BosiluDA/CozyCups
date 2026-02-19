@@ -1,0 +1,28 @@
+.bulkorder{
+    display: flex;
+    justify-content: start;
+}
+
+.bulkordertxt{
+    display: inline-flex;
+}
+
+.Wrappingtxt{
+    display: inline-flex;
+}
+
+.Shippingtxt{
+    display: inline-flex;
+}
+
+.Exchangetxt{
+    display: inline-flex;
+}
+
+.Servicetxt{
+    display: inline-flex;
+}
+
+.customersupporttxt{
+    display: inline-flex;
+}
